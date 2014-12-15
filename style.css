@@ -1,0 +1,150 @@
+/* Eric Meyer's CSS Reset */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #23211F;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+}
+
+.main_b {
+	width: 1200px;
+	margin: 20px auto;
+	border:1px solid #C1BDB8;
+
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 100px;
+	background: #fff;
+	border-bottom:1px solid #C1BDB8;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	border-left: 300px solid #5B554F;
+	border-right: 300px solid #9D968E;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-right: -100%;
+
+}
+.content {
+	padding: 0 10px;
+	height:100%;
+	border:1px solid #C1BDB8;
+	min-height:605px;
+	background:#FBFBFB;
+}
+.content img{
+	width:580px;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.mc1 {
+	float: left;
+	width: 300px;
+	position: relative;
+	background: #5B554F;;
+	left: -300px;
+}
+
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.mc2 {
+	float: right;
+	margin-right: -300px;
+	width: 300px;
+	position: relative;
+	background: #9D968E;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 100px;
+	background: #CC9933;
+}
+.right_img{
+	display: block;
+	margin:0 auto;
+}
+.menu{
+	margin-left: 20px;
+}
+.menu > li{
+	list-style-type: none;
+}
+.menu > li > ul{
+	margin-left: 20px;
+}
+.menu span{
+	display: block;
+	background-color: #3F3B37;
+	padding:2px 0;
+	color:orange;
+	font: 16px verdana;
+}
+.menu a{
+	text-decoration: none;
+	color:#fff ;
+	font: 16px verdana;
+} .menu a:hover{color:#38BADC;}
+.main_menu {
+	margin-top: 20px;
+}
+.under_menu{
+	margin-top: 150px;
+}
